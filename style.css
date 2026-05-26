@@ -14,7 +14,7 @@ body{
 
 
 header{
-    background-color: #c40000;
+    background-color: #1B3A6B;
     color: white;
     text-align: center;
     padding: 20px;
@@ -35,7 +35,7 @@ header h1{
 
 
 nav{
-    background-color: #111;
+    background-color: #c40000;
     text-align: center;
     padding: 15px;
 
@@ -73,7 +73,7 @@ section{
 }
 
 section h2{
-    color: #c40000;
+    color: #1B3A6B;
     margin-bottom: 15px;
 }
 
@@ -105,7 +105,7 @@ table, th, td{
 }
 
 th{
-    background-color: #c40000;
+    background-color: #1B3A6B;
     color: white;
 }
 
@@ -121,7 +121,7 @@ ul{
 
 
 footer{
-    background-color: #111;
+    background-color: #1B3A6B;
     color: white;
     text-align: center;
     padding: 15px;
@@ -136,3 +136,4 @@ footer{
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
