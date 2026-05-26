@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+header{
+    background-color: #c40000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body{
+    padding-top: 170px;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+
+nav{
+    background-color: #111;
+    text-align: center;
+    padding: 15px;
+
+    position: fixed;
+    top: 119px;
+    width: 100%;
+    z-index: 999;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #ff4d4d;
+}
+
+
+main{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+section{
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section h2{
+    color: #c40000;
+    margin-bottom: 15px;
+}
+
+
+.card{
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 5px solid #c40000;
+    border-radius: 5px;
+}
+
+
+#mapa img{
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td{
+    border: 1px solid #999;
+}
+
+th{
+    background-color: #c40000;
+    color: white;
+}
+
+th, td{
+    padding: 12px;
+    text-align: center;
+}
+
+
+ul{
+    margin-left: 20px;
+}
+
+
+footer{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#mapa img{
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
