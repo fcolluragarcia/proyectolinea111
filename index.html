@@ -1,160 +1,269 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Línea 111</title>
-    <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Línea 111</title>
+
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-    <header>
-        <h1>Línea 111</h1>
-        <p>Transporte público urbano de Buenos Aires</p>
-    </header>
+  <!-- HEADER -->
 
-    <nav>
-        <a href="#info">Información</a>
+  <header>
+
+    <div class="topbar">
+
+      <div class="logo">
+
+        <div class="circle">
+          111
+        </div>
+
+        <div>
+          <h1>Línea 111</h1>
+          <p>Transporte público urbano</p>
+        </div>
+
+      </div>
+
+      <nav>
+        <a href="#recorrido">Recorrido</a>
+        <a href="#servicio">Servicio</a>
         <a href="#paradas">Paradas</a>
         <a href="#mapa">Mapa</a>
-        <a href="#horarios">Horarios</a>
-        <a href="#accesibilidad">Accesibilidad</a>
-    </nav>
+      </nav>
 
-    <main>
+    </div>
 
-        <section id="info">
-            <h2>Información del Servicio</h2>
+  </header>
 
-            <h3>Nombre del transporte</h3>
-            <p>Línea 111</p>
 
-            <h3>Descripción breve</h3>
-            <p>
-                La Línea 111 conecta distintos puntos de la Ciudad de Buenos Aires
-                y el conurbano bonaerense, brindando un servicio frecuente y accesible.
-            </p>
 
-            <h3>Destinos principales</h3>
-            <ul>
-                <li>Palermo</li>
-                <li>Chacarita</li>
-                <li>San Justo</li>
-                <li>Liniers</li>
-            </ul>
-        </section>
+  <section class="hero">
 
-<section id="paradas">
-    <h2>Paradas y Recorrido</h2>
+    <div class="hero-content">
 
-    <p>
-        La Línea 111 conecta Puerto Madero con José León Suárez,
-        atravesando distintos barrios importantes de Buenos Aires.
-    </p>
+      <h2>Línea 111</h2>
 
-    <h3>Principales paradas</h3>
+      <p>
+        Información actualizada sobre recorridos, horarios,
+        frecuencia, accesibilidad y servicio de la Línea 111
+        en la Ciudad de Buenos Aires.
+      </p>
 
-    <ul>
-        <li>Puerto Madero</li>
-        <li>Plaza de Mayo</li>
-        <li>Avenida Corrientes</li>
-        <li>Palermo</li>
-        <li>Chacarita</li>
-        <li>Avenida de los Constituyentes</li>
-        <li>José León Suárez</li>
-    </ul>
+    </div>
 
-    <h3>Recorrido completo</h3>
+      <div class="map">
 
-    <p>
-        Algunas de las calles y avenidas por las que circula la línea:
-    </p>
+        <img src="colectivo.jpg" alt="Foto de la Linea" style="max-width:800px;">
 
-    <ul>
-        <li>Azopardo</li>
-        <li>Avenida Independencia</li>
-        <li>Avenida Corrientes</li>
-        <li>Avenida Santa Fe</li>
-        <li>Bonpland</li>
-        <li>Avenida de los Constituyentes</li>
-        <li>Italia</li>
-        <li>Washington</li>
-        <li>Amancio Alcorta</li>
-        <li>General Urquiza</li>
-        <li>Lavalle</li>
-        <li>Mendoza</li>
-    </ul>
+      </div>
 
-    <div class="card">
-        <h3>Información importante</h3>
+  </section>
+
+
+
+  <section id="recorrido">
+
+    <div class="container">
+
+      <div class="title">
+        <h2>Recorrido</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="info-box">
+
+        <h3>Información del recorrido</h3>
 
         <p>
-            La línea cuenta con distintos ramales y conecta zonas
-            comerciales, residenciales y centros de transbordo.
+          La Línea 111 conecta múltiples barrios de la Ciudad Autónoma de Buenos Aires,
+          atravesando zonas residenciales, comerciales y educativas con un servicio
+          constante durante todo el día.
         </p>
+
+        <p>
+          El recorrido une puntos clave de circulación urbana permitiendo conexión
+          con estaciones de tren, subte y otras líneas de colectivo.
+        </p>
+
+      </div>
+
     </div>
-</section>
 
-        <section id="mapa">
-            <h2>Mapa y Ubicación</h2>
+  </section>
 
-            <p>Recorrido aproximado de la Línea 111:</p>
+  <!-- SERVICIO -->
 
-            <img src="mapa.png" alt="Mapa del recorrido">
-            <p>
-                La línea atraviesa distintos barrios importantes de Buenos Aires,
-                facilitando la movilidad urbana de los pasajeros.
-            </p>
-        </section>
+  <section id="servicio">
 
-        <section id="horarios">
-            <h2>Horarios del Servicio</h2>
+    <div class="container">
 
-            <table>
-                <tr>
-                    <th>Día</th>
-                    <th>Horario</th>
-                    <th>Frecuencia</th>
-                </tr>
+      <div class="title">
+        <h2>Información del servicio</h2>
+        <div class="line"></div>
+      </div>
 
-                <tr>
-                    <td>Lunes a Viernes</td>
-                    <td>05:00 - 23:30</td>
-                    <td>10 minutos</td>
-                </tr>
+      <div class="service-grid">
 
-                <tr>
-                    <td>Sábados</td>
-                    <td>05:30 - 23:00</td>
-                    <td>15 minutos</td>
-                </tr>
+        <div class="service-card">
 
-                <tr>
-                    <td>Domingos</td>
-                    <td>06:00 - 22:00</td>
-                    <td>20 minutos</td>
-                </tr>
-            </table>
-        </section>
+          <h3>🕐 Servicio 24 horas</h3>
 
-        <section id="accesibilidad">
-            <h2>Características de Accesibilidad</h2>
+          <p>
+            La Línea 111 opera de forma continua todos los días del año,
+            incluyendo feriados y fines de semana.
+            No hay corte de servicio nocturno.
+          </p>
 
-            <ul>
-                <li>Rampas para personas con movilidad reducida.</li>
-                <li>Espacios reservados para silla de ruedas.</li>
-                <li>Señalización clara dentro de las unidades.</li>
-                <li>Contraste adecuado de colores.</li>
-                <li>Tipografía legible y navegación sencilla.</li>
-                <li>Información visual y sonora en algunas paradas.</li>
-            </ul>
-        </section>
+        </div>
 
-    </main>
+        <div class="service-card">
 
-    <footer>
-        <p>Proyecto de movilidad urbana - Línea 111</p>
-    </footer>
+          <h3>⚡ Horarios pico reforzados</h3>
+
+          <p>
+            Mayor frecuencia entre las 07:00 y las 10:00 hs
+            y entre las 16:00 y las 20:00 hs de lunes a viernes,
+            con unidades adicionales de refuerzo.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <h3>⏱️ Duración estimada del viaje</h3>
+
+          <p>
+            El recorrido completo de cabecera a cabecera
+            tiene una duración aproximada de 130 minutos
+            en condiciones normales de tránsito.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <h3>💳 Pago únicamente con SUBE</h3>
+
+          <p>
+            No se acepta efectivo a bordo.
+            El pago se realiza exclusivamente con tarjeta SUBE.
+            Se aplican descuentos según normativa CNRT vigente.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <h3>♿ Accesibilidad</h3>
+
+          <p>
+            Las unidades cuentan con espacios prioritarios,
+            acceso adaptado y señalización para personas
+            con movilidad reducida.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <h3>🚍 Frecuencia</h3>
+
+          <p>
+            La frecuencia aproximada varía entre
+            6 y 12 minutos dependiendo del horario,
+            tránsito y demanda.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PARADAS -->
+
+  <section id="paradas">
+
+    <div class="container">
+
+      <div class="title">
+        <h2>Paradas principales</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="stops">
+
+        <div class="stops-grid">
+
+          <div class="stop">Retiro</div>
+          <div class="stop">San Nicolás</div>
+          <div class="stop">Congreso</div>
+          <div class="stop">Once</div>
+          <div class="stop">Plaza Miserere</div>
+          <div class="stop">Almagro</div>
+          <div class="stop">Caballito</div>
+          <div class="stop">Primera Junta</div>
+          <div class="stop">Flores</div>
+          <div class="stop">Floresta</div>
+          <div class="stop">Villa Luro</div>
+          <div class="stop">Liniers</div>
+          <div class="stop">Mataderos</div>
+          <div class="stop">Parque Avellaneda</div>
+          <div class="stop">Av. Rivadavia</div>
+          <div class="stop">Av. Directorio</div>
+          <div class="stop">Av. Alberdi</div>
+          <div class="stop">Av. Nazca</div>
+          <div class="stop">Av. Juan B. Justo</div>
+          <div class="stop">Terminal Oeste</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MAPA -->
+
+  <section id="mapa">
+
+    <div class="container">
+
+      <div class="title">
+        <h2>Mapa del recorrido</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="map">
+
+        <img src="mapa111.png" alt="Mapa Línea 111">
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      Línea 111 - Información de transporte urbano de CABA
+    </p>
+
+  </footer>
 
 </body>
 </html>
